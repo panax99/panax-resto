@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: Poppins;
+}
+
+.infinite{
+    animation: infinite-loop 5s infinite forwards;
+}
+ @keyframes infinte-loop {
+    0%{
+        transform: translateX(100);
+    }
+    100%{
+        transform: translateX(0);
+    }
+ }
+ .img-fond{
+    background-image: url("../public/fond-resteau.jpg");
+    object-fit: cover;
+    background-size: cover;
+ }
+ .img-food{
+    background-image: url("../public/image-glace-2.jpg");
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+ }
+ .img-food1{
+    background-image: url("../public/image-glace.jpg");
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+ }
+ .img-food2{
+    background-image: url("../public/img-burger.jpg");
+    object-fit: 70%;
+    background-size: cover;
+    background-position: center;
+ }
+ .img-pdg{
+    background-image: url("../public/leo.jpg");
+    object-fit: cover;
+    background-size: 256%;
+    background-position: top center;
+ }

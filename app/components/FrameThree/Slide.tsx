@@ -12,8 +12,8 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 import Product from './Product';
-import { products } from '@/app/data/data';
 import { useState } from "react";
+import { products } from '../../data/data';
 
 const Slide = () => {
     const [hasPrevSlides, setHasPrevSlides] = useState(false);

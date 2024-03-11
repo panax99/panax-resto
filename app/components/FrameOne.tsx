@@ -16,7 +16,7 @@ const FrameOne = () => {
               transition={{duration: 0.5,stiffness:500}} 
               className=' text-center mb-4'
             >
-              Feeling Hungry? Let's
+              {"Feeling Hungry? Let's"}
             </motion.p>
             <motion.p 
               initial={{y:50,opacity:0}} 

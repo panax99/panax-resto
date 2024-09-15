@@ -5,9 +5,17 @@ import Button from './buttons/Button'
 import { motion } from 'framer-motion'
 
 const FrameOne = () => {
+  const platsVariants = {
+    visible: {
+
+    },
+    hidden: {
+
+    }
+  }
   return (
     <>
-      <div className='img-fond w-full bg-slate-900 flex flex-col justify-between items-center' style={{height:"100vh"}}>
+      <div className='img-fond w-full bg-slate-900 flex flex-col justify-between items-center h-[100vh] overflow-x-hidden'>
           <Navbar/>
           <div className="text-white flex flex-col items-center justify-center" style={{fontFamily:"Canela "}}>
             <motion.p 
@@ -49,7 +57,7 @@ const FrameOne = () => {
             initial={{opacity:0}} 
             animate={{opacity:1}}
             transition={{delay:0.7,stiffness:500}} 
-            className="p-2 w-full -mb-14 flex justify-evenly top[100px] infinite"
+            className="p-2 w-full space-x-4 flex justify-evenly top[100px] infinite overflow-x-hidden"
           >
             <div className="img-food p-16 bg-slate-500 rounded-full shadow-xl hover:cursor-pointer"></div>
             <div className="img-food1 p-16 bg-slate-500 rounded-full shadow-xl hover:cursor-pointer"></div>

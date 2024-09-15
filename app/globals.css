@@ -38,6 +38,7 @@ body {
     background-image: url("../public/img-burger.jpg");
     object-fit: 70%;
     background-size: cover;
+    border-radius: 10px;
     background-position: center;
  }
  .img-pdg{

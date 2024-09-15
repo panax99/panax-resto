@@ -7,9 +7,9 @@ import { motion } from 'framer-motion'
 const FrameThree = () => {
   return (
     <div className='mt-16 p-16 bg-rose-50 pe-0'>
-        <div className="flex justify-between items-start">
+        <div className="flex flex-col md:flex-row justify-between items-start space-y-7">
 
-            <div className="flex flex-col w-5/12">
+            <div className="flex flex-col md:w-5/12 w-auto">
                 <motion.p initial={{y:100,opacity:0}} 
                     animate={{y:0,opacity:1}} 
                     className='font-bold text-red-500'
@@ -36,7 +36,7 @@ const FrameThree = () => {
             <motion.div initial={{x:100,opacity:0}} 
                 animate={{x:0,opacity:1}} 
                 transition={{duration:0.4,delay:0.6}} 
-                className="flex justify-between p-5 pe-0 bg-rose-50 w-6/12 overflow-hidden" 
+                className="flex justify-between p-0 md:p-5 pe-0 bg-rose-50 w-5/6 md:w-6/12 overflow-hidden" 
                 style={{height:"60vh"}}
             >
                 <Slide/>

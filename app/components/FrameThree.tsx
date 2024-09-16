@@ -6,10 +6,10 @@ import { motion } from 'framer-motion'
 
 const FrameThree = () => {
   return (
-    <div className='mt-16 p-16 bg-rose-50 pe-0'>
+    <div className='mt-16 p-16 bg-rose-50 pe-16 lg:pe-0'>
         <div className="flex flex-col md:flex-row justify-between items-start space-y-7">
 
-            <div className="flex flex-col md:w-5/12 w-auto">
+            <div className="flex flex-col md:w-5/12 w-full">
                 <motion.p initial={{y:100,opacity:0}} 
                     animate={{y:0,opacity:1}} 
                     className='font-bold text-red-500'

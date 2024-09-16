@@ -45,7 +45,7 @@ const FrameFour = () => {
                 variants={imgVariants}
                 ref={ref} 
                 animate={inView ? "visible" : "hidden"}  
-                className="img-food2 bg-green-500 rounded-lg lg:rounded-lg w-11/12 md:w-11/12 p-1" 
+                className="img-food2 bg-green-500 rounded-lg lg:rounded-lg w-11/12 md:w-11/12" 
                 style={{height:"67vh"}} 
             >       
             </motion.div>

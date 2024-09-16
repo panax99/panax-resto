@@ -6,11 +6,11 @@ export default function Navbar() {
     return(
         <>
             <div className="w-full bg-transparent p-7 shadow-lg">
-                <ul className="list-none flex flex-row justify-between items-center w-full md:visible text-white">
+                <ul className="list-none flex flex-row justify-between items-center w-full flex text-white">
                     <div className="flex flex-row ms-5">
                         {
                             menu.map(item => (
-                                <li key={item} className="mx-4 invisible md:visible text-white">
+                                <li key={item} className="mx-4 hidden md:flex text-white">
                                     <Link href={"/"}>{item}</Link>
                                 </li>
                             ))

@@ -18,10 +18,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link href="https://fonts.cdnfonts.com/css/canela-text-trial" rel="stylesheet"/>
-                
+        <link href="https://fonts.cdnfonts.com/css/canela-text-trial" rel="stylesheet"/>  
+        <link href="https://fonts.cdnfonts.com/css/avalon" rel="stylesheet"/>
+        <link href="https://fonts.cdnfonts.com/css/inter" rel="stylesheet"/>
       </head>
-      <body>
+      <body className=" bg-[#FAF8F7]">
         {children}
       </body>
     </html>

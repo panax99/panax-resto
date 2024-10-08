@@ -18,7 +18,7 @@ const FrameThree = () => {
                 </motion.p>
                 <motion.p initial={{y:100,opacity:0}} 
                     animate={{y:0,opacity:1}} 
-                    className='text-5xl mt-2 font-semibold' style={{fontFamily: "Canela"}}
+                    className='text-5xl mt-2 font-semibold' style={{fontFamily: "Canela Text Trial"}}
                 >
                     Taste Our New Recipe
                 </motion.p>

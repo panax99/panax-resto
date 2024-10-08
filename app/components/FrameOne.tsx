@@ -17,7 +17,7 @@ const FrameOne = () => {
     <>
       <div className='img-fond w-full bg-slate-900 flex flex-col justify-between items-center h-[100vh] overflow-x-hidden'>
           <Navbar/>
-          <div className="text-white flex flex-col items-center justify-center" style={{fontFamily:"Canela "}}>
+          <div className="text-white flex flex-col items-center justify-center" style={{fontFamily:"Canela Text Trial "}}>
             <motion.p 
               initial={{y:50,opacity:0}} 
               animate={{y:0,opacity:1}}

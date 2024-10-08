@@ -6,7 +6,7 @@ export default function Navbar() {
     return(
         <>
             <div className="w-full bg-transparent p-7 shadow-lg">
-                <ul className="list-none flex flex-row justify-between items-center w-full flex text-white">
+                <ul className="list-none flex flex-row justify-between items-center w-full text-white">
                     <div className="flex flex-row ms-5">
                         {
                             menu.map(item => (

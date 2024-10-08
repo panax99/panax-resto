@@ -59,7 +59,7 @@ const FrameFour = () => {
         </div>
         <div className="flex flex-col w-full md:w-6/12 h-auto lg:h-[68vh]">
             <motion.p className='font-bold text-red-500'>About Us</motion.p>
-            <p className='text-5xl mt-2 font-semibold' style={{fontFamily: "Canela"}}>
+            <p className='text-5xl mt-2 font-semibold' style={{fontFamily: "Canela Text Trial"}}>
                 Our Journey to Sweet Success.<br/>
                 A Tale of Flour and Sugar
             </p>

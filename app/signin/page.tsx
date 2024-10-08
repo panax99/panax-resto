@@ -33,7 +33,7 @@ const SignIn = () => {
                 <div className="flex items-start">
                     <span className=''>
                         <input type="checkbox" name="" id="" className=' me-2' />
-                        J'adore recevoir des astuces, bon plans et offres spéciales surtout si ça booste mon business.
+                        {"J'adore recevoir des astuces, bon plans et offres spéciales surtout si ça booste mon business."}
                     </span>
                 </div>
 
@@ -53,7 +53,7 @@ const SignIn = () => {
 
             <div className=" inline text-center pb-8">
                 En créant votre compte, vous acceptez nos 
-                <Link className=' text-[#3F529E] decoration-solid' href={''}> Conditions d'utilisations </Link> et 
+                <Link className=' text-[#3F529E] decoration-solid' href={''}> {"Conditions d'utilisations"} </Link> et 
                 <Link className='ms-1 text-[#3F529E] decoration-solid' href={''}>Politique de confidentialité</Link>
             </div>
 
